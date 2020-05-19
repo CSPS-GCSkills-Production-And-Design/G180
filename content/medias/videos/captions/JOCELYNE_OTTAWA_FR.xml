@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.10" end="00:00:07.36">Durant une élection, qu&apos;est ce qui se passe</p>
+         <p begin="00:00:07.36" end="00:00:09.76">avec les activités parlementaires?</p>
+         <p begin="00:00:09.76" end="00:00:12.46">Est-ce qu&apos;on poursuit le déroulement habituel?</p>
+    </div>
+  </body>
+</tt>

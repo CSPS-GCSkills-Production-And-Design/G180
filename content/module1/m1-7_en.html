@@ -1,0 +1,85 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Separating Power</h1>
+    		<img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+    <!--Avatar-->
+        <div class="col-md-5 m-l-xxs row">
+            <img src="./content/medias/images/Ian_Matheson_003.png" alt="" width="300" class="img-responsive avatar visible-md visible-lg m-l-md" />
+            <div class="bubble2 col-md-push-1 col-md-12">
+            	<p>An important feature of our system is the <strong>separation and independence of powers</strong> among three branches of government: the Legislative Branch, the Executive Branch, and the Judicial Branch.</p>
+                <p>Select each branch to learn about their powers.</p>
+            </div>
+        </div>
+    <div class="col-md-6 col-md-push-1 col-sm-10 col-xs-10">
+        <!--tree-->
+        <figure class="tree-container">
+        	 <img src="./content/medias/images/tree-1.png" class="center img-responsive" id="tree" />  
+        </figure>
+        <div class="tree_changer legislative">
+        	<a href="#leg" title="Legislative Branch" class="legislative wb-lbx h3"><span>Legislative Branch</span></a>
+        </div>
+        <div class="tree_changer executive">
+        	<a href="#exe" title="Executive Branch" class="executive wb-lbx h3"><span>Executive Branch</span></a>
+        </div>
+        <div class="tree_changer judicial">
+        	<a href="#jud" title="Judicial Branch" class="judicial wb-lbx h3"><span>Judicial Branch</span></a>     
+        </div>
+    
+    <!-- Legislative Branch -->
+      <div id="leg" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Legislative Branch</h2>
+            </header>
+            <div class="modal-body"> 
+            <p><strong>The Legislative Branch</strong>, or Parliament, has the power to pass laws, including laws that allow for the spending of money.</p>
+            </div>
+        </section>
+      </div>
+     <!-- Executive Branch -->
+       <div id="exe" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Executive Branch</h2>
+            </header>
+            <div class="modal-body"> 
+            	<p><strong>The Executive Branch</strong> has the power to propose action and follow through when the related spending is approved.</p>
+            </div>
+        </section>
+      </div>
+       <!-- Judicial Branch -->
+       <div id="jud" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Judicial Branch</h2>
+            </header>
+            <div class="modal-body"> 
+            	<p><strong>The Judicial Branch</strong> has the power to interpret the law and determine whether actions are in compliance with the law.</p>
+            </div>
+        </section>
+      </div>
+      
+       <!--Postit-->
+    <div class="col-md-12 col-sm-6 col-xs-6 postit">
+        <p>This separation of powers is designed to minimize the likelihood of an abuse of power.</p>
+    </div>  
+</section>
+<script>
+/*********************************************************
+			TREE INTERACTION
+**********************************************************/
+	$(".legislative").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-2.png");
+	}).mouseleave(changeBack);
+	
+	$(".executive").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-3.png");
+	}).mouseleave(changeBack);
+	
+	$(".judicial").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-4.png");
+	}).mouseleave(changeBack);
+	
+	function changeBack(){
+		$("#tree").attr("src", "content/medias/images/tree-1.png");	
+	}
+</script>

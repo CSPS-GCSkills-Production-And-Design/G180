@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:04.10" end="00:00:05.63">Can you tell me a little bit more</p>
+         <p begin="00:00:05.63" end="00:00:07.90">about Cabinet Committees and what they do?</p>
+    </div>
+  </body>
+</tt>

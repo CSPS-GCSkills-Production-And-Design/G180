@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:05.60" end="00:00:07.50">So we&apos;ve seen what the Legislative</p>
+         <p begin="00:00:07.50" end="00:00:09.83">and Executive Branches do...</p>
+         <p begin="00:00:09.83" end="00:00:12.86">but what does the Judicial Branch do?</p>
+         <p begin="00:00:12.86" end="00:00:15.90">Where does its power lie in how government works?</p>
+    </div>
+  </body>
+</tt>

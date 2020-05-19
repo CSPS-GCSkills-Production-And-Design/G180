@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:05.53" end="00:00:08.60">Who decides how much money to spend on a policy?</p>
+         <p begin="00:00:08.60" end="00:00:10.56">Where do those decisions take place?</p>
+    </div>
+  </body>
+</tt>

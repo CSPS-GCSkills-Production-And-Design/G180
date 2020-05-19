@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:05.83" end="00:00:08.36">What happens to the activities in Parliament</p>
+         <p begin="00:00:08.36" end="00:00:10.00">during an election?</p>
+         <p begin="00:00:10.00" end="00:00:11.96">Can it run as usual?</p>
+    </div>
+  </body>
+</tt>

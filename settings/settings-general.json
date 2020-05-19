@@ -1,0 +1,28 @@
+{
+    "courseLegacyCode":  "G180",
+	"courseTitle_en": 	 "<span class='how'>How</span> <span class='canadian'>the Canadian</span> <span class='government'>Government</span> <span class='works'>Works</span>",
+	"courseTitle_fr": 	 "<span class='les'>Les</span> <span class='rouages'>rouages</span> <span class='du'>du</span> <span class='gouvernementdu'>Gouvernement du</span> <span class='canadafr'>Canada</span>",
+	"courseSubtitle_en": "Setting the Stage for Results",
+	"courseSubtitle_fr": "Orchestrer la mise en place des résultats",
+	"seriesTitle_en": 	 "G180",
+	"seriesTitle_fr": 	 "G180",
+
+	"showLangSwitch": true,
+	"showHome": 	  true,
+	"showHelp": 	  true,
+	"showSitemap":	  true,
+	"showToolbox": 	  false,
+	"showFavorites":  false,
+	"showGlossary":   false,
+	"showResources":  false,
+	"showExit": 	  true,
+
+	"trackAllPages": true,
+	"triggerCompletionWhenAllPagesViewed": false,
+	
+	"googleAnalyticsID": "",
+	
+	"markModuleAsViewedOnLastPage": false,
+	"enableMicroLearning": false,
+	"enableTutorial": false
+} 

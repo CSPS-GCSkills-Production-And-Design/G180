@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.30" end="00:00:07.96">Le programme du gouvernement, qu&apos;est-ce que c&apos;est exactement?</p>
+         <p begin="00:00:07.96" end="00:00:09.36">Quel rôle jouent les fonctionnaires</p>
+         <p begin="00:00:09.36" end="00:00:11.50">dans l&apos;avancement du le programme du gouvernement?</p>
+    </div>
+  </body>
+</tt>

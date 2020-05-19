@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:05.26" end="00:00:07.80">You mentioned the Executive Branch.</p>
+         <p begin="00:00:07.80" end="00:00:10.20">What is the main job of this Branch?</p>
+         <p begin="00:00:10.20" end="00:00:12.23">What exactly do they do?</p>
+    </div>
+  </body>
+</tt>

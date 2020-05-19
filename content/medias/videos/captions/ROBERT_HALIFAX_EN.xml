@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:05.16" end="00:00:06.83">I heard that documentation is important</p>
+         <p begin="00:00:06.83" end="00:00:08.60">in terms of making decisions.</p>
+         <p begin="00:00:08.60" end="00:00:10.46">Can you tell me more about that?</p>
+    </div>
+  </body>
+</tt>

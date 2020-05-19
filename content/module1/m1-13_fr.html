@@ -1,0 +1,41 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Organismes centraux</h1>
+    		<img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+    <div class="col-md-12 bubble-interaction">
+        <p class="col-md-offset-1 col-sm-offset-2">Les <strong>organismes centraux</strong> occupent une place unique parmi les ministères du fait qu’ils aident les ministres à s’acquitter de leurs responsabilités collectives. <br />Sélectionnez les symboles pour voir des exemples. </p> 	
+        <div class="col-md-offset-1">
+            <a href="#show2" aria-controls="show2" class="graph-moneytxt contentchange center"><span>Ministère des Finances</span></a>
+            <a href="#show1" aria-controls="show1" class="graph-pietxt contentchange left"><span>Bureau <br /><span class="nowrap">du Conseil privé</span></span></a>
+
+            <a href="#show3" aria-controls="show3" class="graph-geartxt contentchange right"><span>Secrétariat du Conseil <span class="nowrap">du Trésor</span></span></a>
+            <!--Container-->
+            <div id="slider" class="slider col-md-offset-1 col-sm-offset-1">
+            	<!--Content to be replaced-->
+                <p class="hide">Sélectionnez les symboles pour voir des exemples.</p>
+            </div>
+                <!--Hidden-->
+                <div id="show1">
+                   <!-- <h2>Privy Council Office</h2>-->
+                    <p>Le <strong>Bureau du Conseil privé</strong> (BCP) contribue à la coordination de la mise en œuvre du programme et veille à la cohérence des décisions du Cabinet.</p>
+                </div>
+                <div id="show2">	
+                   <!-- <h2>Department of Finances</h2>-->
+                    <p>Le <strong>ministère des Finances du Canada</strong> intervient dans l’affectation des ressources afin de permettre aux ministres de mettre en œuvre collectivement leurs programmes.</p>
+                </div>
+                <div id="show3">
+                    <!--<h2>Treasury Board Secretariat</h2>-->
+                    <p>Le <strong>Secrétariat du Conseil du Trésor</strong> (SCT) <strong>du Canada</strong> appuie le Conseil du Trésor en proposant et en mettant en œuvre des politiques de gestion.</p>
+                </div>        
+        </div>
+       </div>
+</section>
+<script>
+	$(function () {
+    $(".contentchange").click(function () {
+        var content_id = $(this).attr('href');
+        $('.slider').hide().html($(content_id).html()).show("swing");
+
+        return false;
+    });
+});
+</script>

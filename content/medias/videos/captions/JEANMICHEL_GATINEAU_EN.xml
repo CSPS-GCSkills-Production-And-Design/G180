@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:06.00" end="00:00:07.90">I want to know how our government works</p>
+         <p begin="00:00:07.90" end="00:00:09.36">and how do I fit in?</p>
+    </div>
+  </body>
+</tt>

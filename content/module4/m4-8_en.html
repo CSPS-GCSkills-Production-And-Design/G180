@@ -1,0 +1,40 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">In Conclusion</h1>
+<img src="./theme/G180_new/ico_conclusion.png" alt="" class="title-img visible-md visible-lg" />
+    <div class="col-md-4 col-md-offset-1 col-sm-10 col-xs-10">
+        <p>Treasury Board plays an important role in guiding the management of public policy implementation.</p>
+		<p>In doing so, they establish management policies and control the delegation of management authorities.</p>
+		<p>The decision to delegate is based on an assessment of the ability of an individual to succeed and manage risk.</p>
+		<p>With respect to the management of money, the Treasury Board must be satisfied before it will include an organization’s request in the Estimates.</p>
+		<p>In making a decision, Parliament holds ministers to account for their plans and past actions.</p>
+		
+        <div id="complete_form" class="well">
+            <input type="checkbox" id="complete_course" name="complete_course" />
+            <label for="complete_course">Check this box to complete the course.</label><br><br>
+            <input id="complete_btn" class="btn btn-default" type="button" value="Submit" aria-controls="complete_course" />
+        </div>
+        
+         <!--Postit-->
+    	<div class="col-md-6 col-sm-6 col-xs-6 pull-left postit row">
+        	<p><strong>Thank you for taking:</strong>  <em>How the Canadian Government Works- Setting the Stage for Results</em>.  Visit the next series of <em>How the Canadian Government Works – Public Service Behind the Scenes</em></p>
+    	</div>       
+	</div> 
+    <div class="col-md-5 col-md-push-1 col-sm-12 col-xs-10">
+    	<img src="./content/medias/images/conclusion-gear-4.png" alt="" class="img-circle img-responsive box-shadow conclusion-img" />
+    </div> 
+        
+</section>
+<script>
+	$(document).ready(function(e) {
+		if (typeof(scorm.getLessonStatus()) != "undefined" && scorm.getLessonStatus() == "completed")
+			$("#complete_form").html("<p>You have completed this course.</p>");
+		$("#complete_btn").click(function(e) {
+			if ($("#complete_course").is(":checked")) {
+				scorm.complete();
+				$("#complete_form").html("<p>You have completed this course.</p>");
+			} else {
+				alert("Please fill in the checkbox to complete the course.");
+			}
+		});
+	});
+</script>

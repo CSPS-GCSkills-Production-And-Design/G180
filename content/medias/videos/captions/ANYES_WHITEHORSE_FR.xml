@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:04.66" end="00:00:07.23">Je voudrais en savoir plus sur les comités du Cabinet</p>
+         <p begin="00:00:07.23" end="00:00:09.00">et ce qu&apos;ils font.</p>
+    </div>
+  </body>
+</tt>

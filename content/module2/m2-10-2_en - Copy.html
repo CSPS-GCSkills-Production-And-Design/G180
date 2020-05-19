@@ -1,0 +1,38 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Majority Government</h1>
+    <!--Avatar-->
+        <div class="col-md-5 col-md-push-1 row">
+            <img src="./content/medias/images/Danielle_De-Bellefeuille_026.jpg" alt="" width="300" class="img-responsive avatar visible-md visible-lg m-l-md" />
+            <div class="bubble2 col-md-12">
+            	<p>In a majority government, the term (about four years) is more predictable because the governing party’s members of Parliament will usually vote to support their party staying in power.  </p>
+            </div>
+        </div>
+    <div class="col-md-5 col-md-push-1 bubble-interaction container-fluid"> 	
+        <div>
+            <a href="#show13" aria-describedby="show1" class="graph-majority contentchange"><span class="hidden">A Majority <br /> Government</span></a>
+            <!--Container-->
+            <div id="slider" class="slider col-md-4 col-md-offset-1">
+            	<!--Content to be replaced-->
+                Click on each item to view ...
+            </div>
+            
+                <!--Hidden-->
+                <div id="show13">
+                    <h2>Majority</h2>
+                    <p>In practical terms, this means that a government has greater influence over the passage of bills intended to move the agenda forward. <br />
++ At the mid-point in a majority government’s term, there will normally be a break in Parliament (a prorogation), followed by a new Speech from the Throne updating the government’s agenda.
+</p>
+                </div>  
+        </div>
+       </div>
+</section>
+<script>
+	$(function () {
+    $(".contentchange").click(function () {
+        var content_id = $(this).attr('href');
+        $('.slider').hide().html($(content_id).html()).show("swing");
+
+        return false;
+    });
+});
+</script>

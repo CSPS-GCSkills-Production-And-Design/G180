@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.30" end="00:00:08.50">Pouvez-vous me dire quels outils sont utilisés</p>
+         <p begin="00:00:08.50" end="00:00:11.33">pour faire avancer les travaux?</p>
+         <p begin="00:00:11.33" end="00:00:14.03">Comment est-ce qu&apos;on établit les priorités</p>
+         <p begin="00:00:14.03" end="00:00:16.23">et comment on les mets en place?</p>
+    </div>
+  </body>
+</tt>

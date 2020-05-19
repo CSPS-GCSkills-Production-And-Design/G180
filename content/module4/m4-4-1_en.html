@@ -1,0 +1,52 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Parliamentary Oversight</h1>
+    <img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+     <div class="col-md-12">
+        <!--Avatar-->
+        <div class="col-md-5 col-sm-12 col-xs-12 row">
+            	<img src="./content/medias/images/Lynn_Chalati_066.png" alt="" width="220" class="img-responsive avatar visible-md visible-lg m-l-lg" />
+            <div class="bubble2-5">
+            	<p>This process of proposing spending (by the Executive Branch) and the approval and oversight of it (by Parliament) is an example of how the separation of powers between these two branches works.</p>
+                <ul>
+                	<li>The Executive Branch can propose action.</li><br />
+					<li>The Legislative Branch or Parliament, can approve it; but, will then hold the Executive Branch to account.</li> 
+                </ul>
+                <p>Select the symbol to see how ministers are assessed.</p>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12 col-xs-12 col-md-push-1 bubble-interaction m-l-sm m-t-sm">
+        <!--<p class="col-md-offset-1 col-sm-offset-2">Select the symbol to see how ministers are assessed.</p> 	-->
+        <div class="col-md-offset-1">
+            <a href="#show2" aria-controls="show2" class="graph-geartxt contentchange center"><span>Ministers</span></a>
+            <!--Container-->
+            <div id="slider" class="slider" style="padding:0px 100px 0px 85px;">
+            	<!--Content to be replaced-->
+                <p class="hide">Select the symbol to see how ministers are assessed.</p>
+            </div>
+                <!--Hidden-->
+                <div id="show2">	
+                    <h2>Ministers</h2>
+                    <p>With Parliament’s review of the Estimates, ministers are asked to provide information so that Parliament can assess if ministers are acting competently.</p>
+                </div>    
+        </div>
+       </div>
+</section>
+
+        <!--Postit
+        <div class="col-md-6 col-sm-12 col-xs-12 col-md-offset-1 postit row m-t-sm">
+            <p>Indeed, this scrutiny of the Estimates by Treasury Board before it is brought to Parliament, is intended to ensure the Estimates will withstand the scrutiny of Parliament.  If Parliament supports the government’s funding request, it passes the appropriation act.</p>
+        </div> 
+    </div>
+</section>-->
+
+<script>
+	$(function () {
+    $(".contentchange").click(function () {
+        var content_id = $(this).attr('href');
+        $('.slider').hide().html($(content_id).html()).show("swing");
+
+        return false;
+    });
+});
+</script>

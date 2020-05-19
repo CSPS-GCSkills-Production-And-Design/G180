@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.33" end="00:00:07.46">Vous avez parlé de l&apos;exécutif.</p>
+         <p begin="00:00:07.46" end="00:00:09.60">Que fait l&apos;exécutif au juste?</p>
+    </div>
+  </body>
+</tt>

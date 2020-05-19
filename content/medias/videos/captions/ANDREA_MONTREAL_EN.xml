@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="en">
+         <p begin="00:00:04.76" end="00:00:06.30">How does the government ensure</p>
+         <p begin="00:00:06.30" end="00:00:08.70">the best decisions are being made?</p>
+         <p begin="00:00:08.70" end="00:00:10.43">Where is the oversight?</p>
+    </div>
+  </body>
+</tt>

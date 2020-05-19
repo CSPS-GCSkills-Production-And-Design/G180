@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.63" end="00:00:07.73">On a vu le fonctionnement du pouvoir législatif</p>
+         <p begin="00:00:07.73" end="00:00:09.50">et du pouvoir exécutif.</p>
+         <p begin="00:00:09.50" end="00:00:11.40">Comment s&apos;exerce le pouvoir judicaire</p>
+         <p begin="00:00:11.40" end="00:00:13.46">dans le fonctionnement du gouvernement?</p>
+    </div>
+  </body>
+</tt>

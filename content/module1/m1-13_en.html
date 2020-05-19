@@ -1,0 +1,41 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Central Agencies</h1>
+    		<img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+    <div class="col-md-12 bubble-interaction">
+        <p class="col-md-offset-1 col-sm-offset-2">Among departments, Central Agencies are unique in that they assist ministers in fulfilling their collective responsibilities. <br />For example, select the symbols.</p> 	
+        <div class="col-md-offset-1">
+            <a href="#show2" aria-controls="show2" class="graph-moneytxt contentchange center"><span>Department of Finance</span></a>
+            <a href="#show1" aria-controls="show1" class="graph-pietxt contentchange left"><span>Privy Council Office</span></a>
+
+            <a href="#show3" aria-controls="show3" class="graph-geartxt contentchange right"><span>Treasury Board Secretariat</span></a>
+            <!--Container-->
+            <div id="slider" class="slider col-md-offset-1 col-sm-offset-1">
+            	<!--Content to be replaced-->
+                <p class="hide">For example, select the symbols.</p>
+            </div>
+                <!--Hidden-->
+                <div id="show1">
+                   <!-- <h2>Privy Council Office</h2>-->
+                    <p><strong>The Privy Council Office</strong> (PCO) helps coordinate implementation of the agenda and strives for coherence in Cabinet decisions.</p>
+                </div>
+                <div id="show2">	
+                   <!-- <h2>Department of Finances</h2>-->
+                    <p>The <strong>Department of Finance Canada</strong> helps allocate resources to allow ministers to implement their agendas collectively.</p>
+                </div>
+                <div id="show3">
+                    <!--<h2>Treasury Board Secretariat</h2>-->
+                    <p>The <strong>Treasury Board of Canada Secretariat</strong> (TBS) supports Treasury Board by proposing and implementing management policies.</p>
+                </div>        
+        </div>
+       </div>
+</section>
+<script>
+	$(function () {
+    $(".contentchange").click(function () {
+        var content_id = $(this).attr('href');
+        $('.slider').hide().html($(content_id).html()).show("swing");
+
+        return false;
+    });
+});
+</script>

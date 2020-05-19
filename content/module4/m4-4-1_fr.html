@@ -1,0 +1,52 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Surveillance par le Parlement</h1>
+    <img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+     <div class="col-md-12">
+        <!--Avatar-->
+        <div class="col-md-5 col-sm-12 col-xs-12 row">
+            	<img src="./content/medias/images/Lynn_Chalati_066.png" alt="" width="220" class="img-responsive avatar visible-md visible-lg m-l-lg" />
+            <div class="bubble2-5">
+            	<p>Ce processus de proposition de dépenses (par le pouvoir exécutif), d’approbation et de surveillance (par le Parlement) illustre la séparation des pouvoirs entre ces deux instances.</p>
+                <ul>
+                	<li>le pouvoir exécutif peut proposer une action.</li><br />
+					<li>le pouvoir législatif (le Parlement) peut l’approuver, mais il appartiendra ensuite au pouvoir exécutif d’en rendre compte.</li> 
+                </ul>
+                <p>Sélectionnez le symbole pour savoir comment se déroule l’évaluation des ministres.</p>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12 col-xs-12 col-md-push-1 bubble-interaction m-l-sm m-t-sm">
+        <!--<p class="col-md-offset-1 col-sm-offset-2">Select the symbol to see how ministers are assessed.</p> 	-->
+        <div class="col-md-offset-1">
+            <a href="#show2" aria-controls="show2" class="graph-geartxt contentchange center"><span>Ministres</span></a>
+            <!--Container-->
+            <div id="slider" class="slider" style="padding:0px 100px 0px 85px;">
+            	<!--Content to be replaced-->
+                <p class="hide">Sélectionnez le symbole afin de comprendre comment les ministres sont évalués. (?)</p>
+            </div>
+                <!--Hidden-->
+                <div id="show2">	
+                    <h2>Ministres</h2>
+                    <p>Lors de l’examen du budget des dépenses par le Parlement, les ministres sont invités à fournir de l’information afin que le Parlement puisse déterminer s’ils agissent avec compétence.</p>
+                </div>    
+        </div>
+       </div>
+</section>
+
+        <!--Postit
+        <div class="col-md-6 col-sm-12 col-xs-12 col-md-offset-1 postit row m-t-sm">
+            <p>Indeed, this scrutiny of the Estimates by Treasury Board before it is brought to Parliament, is intended to ensure the Estimates will withstand the scrutiny of Parliament.  If Parliament supports the government’s funding request, it passes the appropriation act.</p>
+        </div> 
+    </div>
+</section>-->
+
+<script>
+	$(function () {
+    $(".contentchange").click(function () {
+        var content_id = $(this).attr('href');
+        $('.slider').hide().html($(content_id).html()).show("swing");
+
+        return false;
+    });
+});
+</script>

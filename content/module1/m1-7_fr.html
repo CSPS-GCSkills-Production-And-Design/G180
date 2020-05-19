@@ -1,0 +1,85 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">Séparation des pouvoirs</h1>
+    		<img src="./theme/G180_new/ico_interact.png" alt="" class="title-img visible-md visible-lg" />
+    <!--Avatar-->
+        <div class="col-md-5 m-l-xxs row">
+            <img src="./content/medias/images/Ian_Matheson_003.png" alt="" width="300" class="img-responsive avatar visible-md visible-lg m-l-md" />
+            <div class="bubble2 col-md-push-1 col-md-12">
+            	<p>Une caractéristique importante de notre système réside dans <strong>la séparation et l’indépendance des pouvoirs</strong> entre trois fonctions gouvernementales : le pouvoir législatif, le pouvoir exécutif et le pouvoir judiciaire.</p>
+                <p>Sélectionnez chaque pouvoir pour en savoir plus sur ces fonctions gouvernementales.</p>
+            </div>
+        </div>
+    <div class="col-md-6 col-md-push-1 col-sm-10 col-xs-10">
+        <!--tree-->
+        <figure class="tree-container">
+        	 <img src="./content/medias/images/tree-1.png" class="center img-responsive" id="tree" />  
+        </figure>
+        <div class="tree_changer legislative">
+        	<a href="#leg" title="Legislative Branch" class="legislative wb-lbx h3"><span>Pouvoir législatif</span></a>
+        </div>
+        <div class="tree_changer executive">
+        	<a href="#exe" title="Executive Branch" class="executive wb-lbx h3"><span>Pouvoir exécutif</span></a>
+        </div>
+        <div class="tree_changer judicial">
+        	<a href="#jud" title="Judicial Branch" class="judicial wb-lbx h3"><span>Pouvoir judiciaire</span></a>     
+        </div>
+    
+    <!-- Legislative Branch -->
+      <div id="leg" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Le pouvoir législatif</h2>
+            </header>
+            <div class="modal-body"> 
+            <p><strong>Le pouvoir législatif</strong>, ou Parlement, a le pouvoir d’édicter des lois, y compris des lois autorisant des dépenses.</p>
+            </div>
+        </section>
+      </div>
+     <!-- Executive Branch -->
+       <div id="exe" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Le pouvoir exécutif</h2>
+            </header>
+            <div class="modal-body"> 
+            	<p><strong>Le pouvoir exécutif</strong> a le pouvoir de proposer des actions et d’y donner suite lorsque les dépenses sont approuvées.</p>
+            </div>
+        </section>
+      </div>
+       <!-- Judicial Branch -->
+       <div id="jud" class="modal-dialog modal-content overlay-def mfp-hide">
+        <section class="modal-content">
+            <header class="modal-header overlay-hd">
+                <h2 class="modal-title" id="lbx-title">Le pouvoir judiciaire</h2>
+            </header>
+            <div class="modal-body"> 
+            	<p><strong>Le pouvoir judiciaire</strong> a le pouvoir d’interpréter la loi afin de déterminer si les actions sont conformes à la loi.</p>
+            </div>
+        </section>
+      </div>
+     </div> 
+       <!--Postit-->
+    <div class="col-md-12 col-sm-6 col-xs-6 postit">
+        <p>Cette séparation des fonctions est destinée à limiter les possibilités d’abus de pouvoir.</p>
+    </div>  
+</section>
+<script>
+/*********************************************************
+			TREE INTERACTION
+**********************************************************/
+	$(".legislative").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-2.png");
+	}).mouseleave(changeBack);
+	
+	$(".executive").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-3.png");
+	}).mouseleave(changeBack);
+	
+	$(".judicial").mouseenter(function (){
+		$("#tree").attr("src", "content/medias/images/tree-4.png");
+	}).mouseleave(changeBack);
+	
+	function changeBack(){
+		$("#tree").attr("src", "content/medias/images/tree-1.png");	
+	}
+</script>

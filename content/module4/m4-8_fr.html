@@ -1,0 +1,42 @@
+<section role="content" class="col-md-12 col-sm-12 col-xs-12">
+    <h1 id="main-title">En Conclusion</h1>
+<img src="./theme/G180_new/ico_conclusion.png" alt="" class="title-img visible-md visible-lg" />
+    <div class="col-md-4 col-md-offset-1 col-sm-10 col-xs-10">
+        <p>Le Conseil du Trésor joue un rôle important pour encadrer la gestion de la mise en œuvre des politiques publiques</p>
+		<p>Ce faisant, il établit des politiques de gestion et contrôle la délégation des pouvoirs de gestion.</p>
+		<p>La décision en matière de délégation s’appuie sur une évaluation de la capacité d’une personne à parvenir au succès et à gérer le risque.</p>
+		<p>En ce qui concerne la gestion des fonds, le Conseil du Trésor doit être satisfait avant d’inclure la demande d’une organisation dans le budget des dépenses.</p>
+		<p>Lorsque le Parlement prend une décision, il demande aux ministres de rendre compte de leurs plans et de leurs actions antérieures.</p>
+		
+        
+        <div id="complete_form" class="well">
+            <input type="checkbox" id="complete_course" name="complete_course" />
+            <label for="complete_course">Sélectionnez cette case pour compléter le cours.</label><br><br>
+            <input id="complete_btn" class="btn btn-default" type="button" value="Valider" aria-controls="complete_course" />
+        </div>
+        
+         <!--Postit-->
+    	<div class="col-md-6 col-sm-6 col-xs-6 pull-left postit row" style="font-size:15px;">
+        	<p>Nous vous remercions d’avoir suivi le cours : <em>Les rouages du gouvernement du Canada – Orchestrer la mise en place des résultats</em>.
+            Vous pouvez maintenant découvrir <span class="nowrap">la prochaine série :</span> <em>Les rouages du gouvernement du Canada – Les coulisses de la fonction publique</em>.</p>
+    	</div>       
+	</div> 
+    <div class="col-md-5 col-md-push-1 col-sm-12 col-xs-10">
+    	<img src="./content/medias/images/conclusion-gear-4.png" alt="" class="img-circle img-responsive box-shadow conclusion-img" />
+    </div> 
+    
+</section>
+<script>
+	$(document).ready(function(e) {
+		if (typeof(scorm.getLessonStatus()) != "undefined" && scorm.getLessonStatus() == "completed")
+			$("#complete_form").html("<p>Vous avez terminé ce cours.</p>");
+		$("#complete_btn").click(function(e) {
+			if ($("#complete_course").is(":checked")) {
+				scorm.complete();
+				$("#complete_form").html("<p>Vous avez terminé ce cours.</p>");
+			} else {
+				alert("Veuillez cocher pour terminer ce cours.");
+			}
+		});
+	});
+</script>

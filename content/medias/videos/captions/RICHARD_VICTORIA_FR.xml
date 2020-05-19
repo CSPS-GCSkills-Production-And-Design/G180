@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.30" end="00:00:07.60">Je voudrais savoir comment le pouvoir est distribué.</p>
+         <p begin="00:00:07.60" end="00:00:09.90">Quels sont les mécanismes de contrôle?</p>
+         <p begin="00:00:09.90" end="00:00:12.33">Comment sommes nous certains que les meilleures décisions</p>
+         <p begin="00:00:12.33" end="00:00:14.46">sont prises dans l&apos;intérêt des Canadiens?</p>
+    </div>
+  </body>
+</tt>

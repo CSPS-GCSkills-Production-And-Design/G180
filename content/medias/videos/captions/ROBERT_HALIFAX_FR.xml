@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xml:lang="fr" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+<body>
+<div xml:lang="fr">
+         <p begin="00:00:05.73" end="00:00:08.40">J&apos;imagine que les décisions prises sont bien documentées</p>
+         <p begin="00:00:08.40" end="00:00:11.06">mais quels documents est-ce qu&apos;on doit fournir?</p>
+         <p begin="00:00:11.06" end="00:00:13.30">Pouvez-vous m&apos;en dire plus à ce sujet?</p>
+    </div>
+  </body>
+</tt>
